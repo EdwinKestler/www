@@ -1,14 +1,14 @@
 <?php
 /*
-Author: Shahrukh Khan
-Website: http://www.thesoftwareguy.in
-Date: 18 August, 2013
+Author: Edwin Kestler
+Website: http://flatbox.io
+Date: 17 July, 2015
 */
 session_start();
 require 'facebook_library/facebook.php';
-define("APP_ID", "XXXXXXXXXXXXXXXX");
-define("APP_SECRET", "XXXXXXXXXXXXXXXXXXXXX");
-define("SITE_URL", "http://abc.com/");
+define("APP_ID", "823674294347763");
+define("APP_SECRET", "313ca5703fe23ab44173babb859e24bd");
+define("SITE_URL", "http://flatbox.io/");
 define("PERMISSIONS", "email,user_hometown,user_about_me");
 
 // create a facebook object

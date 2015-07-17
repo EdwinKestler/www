@@ -1,8 +1,8 @@
 <?php
 /*
-Author: Shahrukh Khan
-Website: http://www.thesoftwareguy.in
-Date: 18 August, 2013
+Author: Edwiwn Kestler
+Website: http://flatbox.io
+Date: 17 July, 2015
 */
 require_once("configure.php");
 $facebook->destroySession();
