@@ -12,7 +12,7 @@ session_start();
   <?php if ($_SESSION['FBID']): ?>      <!--  After user login  -->
 <div class="container">
 <div class="hero-unit">
-  <h1>Hello <?php echo $_SESSION['USERNAME']; ?></h1>
+  <h1>Hello <?php echo $_SESSION['FULLNAME']; ?></h1>
   <p>Welcome to "facebook login" tutorial</p>
   </div>
 <div class="span4">
