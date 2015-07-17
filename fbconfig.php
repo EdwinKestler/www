@@ -1,11 +1,9 @@
 <?php
-
 session_start();
 // added in v4.0.0
 require_once 'autoload.php';
 require 'functions.php'; // Include functions
 checkuser($fbid,$fbfullname,$femail); // To update local DB 
-
 use Facebook\FacebookSession;
 use Facebook\FacebookRedirectLoginHelper;
 use Facebook\FacebookRequest;
