@@ -1,0 +1,57 @@
+/*
+Author: Shahrukh Khan
+Website: http://www.thesoftwareguy.in
+Date: 18 August, 2013
+*/
+* {
+margin: 0;
+}
+
+html, body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+body {
+	border: 0;
+    font: Arial, Helvetica, sans-serif;
+	color: #555555;
+	background:#FFF;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+a{
+	text-decoration: none;
+    color: #6D37B0;
+}
+a:hover { color: #8D8D8D; }
+a:visited, a:active { text-decoration: none; color:#6D37B0; }
+#body{ 
+	width: 1004px;
+    margin: 0 auto;
+    max-width: 100%;
+	padding:20px 0 70px 0;
+	height: 100%;
+}
+.mainTitle{ font-size:30px; text-align:center; padding-bottom:20px;}
+
+footer {
+    position: absolute;
+    bottom: 0;
+	left:0;
+    height: 70px;
+    width: 100%;
+	background:#f7f7f7;
+	border:1px solid #000;
+	color:#000;
+}
+.copyright{float:left;padding:10px 0 0 20px; }
+.footerlogo{float:right;padding:10px 20px 0 0;}
+.resultRow{width:100%; margin:2px 0; border:1px solid #8D8D8D;padding:2px; color:#000;}
+
+.title{ font-size:20px; text-align:center; padding:10px;}
+.friendBox{width:100%;}
+.friendBox div{width:19%; margin:3px; border:1px solid #6D37B0;float:left; max-height:150px; text-align:center; }
