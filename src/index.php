@@ -12,7 +12,7 @@ session_start();
   <?php if ($_SESSION['FBID']): ?>      <!--  After user login  -->
 <div class="container">
 <div class="hero-unit">
-  <h1>Hello <?php echo $_SESSION['USERNAME']; ?></h1>
+  <h1>Hello <?php echo $_SESSION['FULLNAME']; ?></h1>
   <p>Welcome to "facebook login" tutorial</p>
   </div>
 <div class="span4">
@@ -22,7 +22,7 @@ session_start();
 <li class="nav-header">Facebook ID</li>
 <li><?php echo  $_SESSION['FBID']; ?></li>
 <li class="nav-header">Facebook fullname</li>
-<li><?php echo $_SESSION['USERNAME']; ?></li>
+<li><?php echo $_SESSION['FULLNAME']; ?></li>
 <li class="nav-header">Facebook Email</li>
 <li><?php echo $_SESSION['EMAIL']; ?></li>
 <div><a href="logout.php">Logout</a></div>
