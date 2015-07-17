@@ -15,6 +15,21 @@ if (isset($_SESSION["user_id"]) && $_SESSION["user_id"] != "" ) {
 <html>
 <head>
 <title>Facebook Login using PHP</title>
+    <meta charset="utf-8" />
+        <title>CSS3 Animated Navigation Menu | Tutorialzine Demo</title>
+
+        <!-- Our CSS stylesheet file -->
+        <link rel="stylesheet" href="assets/css/styles.css" />
+
+		<!-- Font Awesome Stylesheet -->
+		<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css" />
+
+		<!-- Including Open Sans Condensed from Google Fonts -->
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic" />
+
+        <!--[if lt IE 9]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
 
 </head>
 
