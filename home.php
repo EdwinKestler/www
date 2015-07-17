@@ -14,14 +14,6 @@ if (!isset($_SESSION["user_id"]) && $_SESSION["user_id"] == "" ) {
 <html>
 <head>
 <title>Facebook Login using PHP - thesoftwareguy</title>
-<link rel="icon" href="http://flatbox.io/flatbox.ico" type="image/x-icon" />
-<!--iOS/android/handheld specific -->	
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
-<title>Facebook Login using PHP - thesoftwareguy</title>
-<link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
 <body>
