@@ -5,6 +5,8 @@ session_start();
 <html xmlns:fb="http://www.facebook.com/2008/fbml">
   <head>
     <title>Login with facebook</title>
+    <!-- Add login URL in index.php -->
+  <a class="btn btn-block btn-social btn-facebook" href="<?php echo $loginURL; ?>">Login with Facebook</a> 
   </head>
   <body>
   <?php if ($_SESSION['user_id']): ?>
@@ -14,8 +16,7 @@ session_start();
 
     <?php else: ?>     
       
-<!-- Add login URL in index.php -->
-<a class="btn btn-block btn-social btn-facebook" href="<?php echo $loginURL; ?>">Login with Facebook</a>       
+       
 
 
     <?php endif ?>
