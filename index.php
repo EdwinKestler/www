@@ -6,7 +6,7 @@ session_start();
   <head>
     <title>Login with facebook</title>
    <!-- Add login URL in index.php -->
-   <a class="btn btn-block btn-social btn-facebook" href="https://www.facebook.com/dialog/oauth?client_id=1492541474313250&redirect_uri=http://flatbox.io/facebook_login.php">Login with Facebook</a> 
+   <a class="btn btn-block btn-social btn-facebook" href="https://www.facebook.com/dialog/oauth?client_id=823674294347763&redirect_uri=http://flatbox.io/facebook_login.php">Login with Facebook</a> 
  </head>
   <body>
   <?php if ($_SESSION['FBID']): ?>
