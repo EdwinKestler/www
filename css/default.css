@@ -127,3 +127,20 @@ a:hover {
 	content: "\f060";
 }
 
+.wrapper
+{
+    position: relative;
+    display: inline-block; /* You could alternatively float the div, this is just to get it to fit the text width */
+    z-index: 0; /* Not strictly necessary, but establishes its own stacking context to make it easier to handle compound/multiple overlays */
+}
+
+.overlay
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 255, 0.5);
+    z-index: -1;
+}
