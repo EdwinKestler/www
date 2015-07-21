@@ -20,7 +20,7 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
-    color: #fff;
+    color: #000;
 }
 
 a {
@@ -76,7 +76,7 @@ a:hover {
 
 .container > header nav a:after {
 	content: attr(data-info);
-	color: #fff;
+	color: #000;
 	position: absolute;
 	width: 600%;
 	top: 120%;
