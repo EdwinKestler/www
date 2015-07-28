@@ -30,15 +30,17 @@ a {
 
 a:hover {
 	color: #242323;
+    left:50%;
 }
 
 .container > header {
-	padding: 4.875em 2.875em 2.875em;
+	padding: 1em 1em 1em 1em;
 	position: fixed;
-	z-index: 1000;
-	width: 90%;
+	z-index: 1;
+	width: 95%;
 	left: 5%;
-    color:#b82121;
+    color:#ffffff;
+    text-align: center;
 }
 
 .container > header h1 {
@@ -49,16 +51,20 @@ a:hover {
 	font-weight: 800;
     text-shadow: 0px 0px 5px #fff;
     color:#000;
-}
+ }
 
 .container > header span {
+    
+    margin-right: 8%;
     font-size: 4.125em;
 	display: block;
 	font-weight: 800;
+    border:5px solid #ffffff;
 	text-transform: uppercase;
 	letter-spacing: 1.5em;
-	padding: 0 0 1.0em 0.1em;
-    text-shadow: 0px 0px 5px #fff;
+	padding: 0.5em 0 0.5em 1em;
+    text-shadow: 0px 0px 10px #242323;
+    background-color:#b82121;
 
 }
 
@@ -130,27 +136,58 @@ a:hover {
 	content: "\f060";
 }
 
-#footer {
+#upper { 
     background-color:transparent;
     position: fixed;
     width: 100%;
-    bottom: 0;
-    height: 10px;
-    padding: 100px;
+    bottom: 49%;
     font-family: 'Lato', Calibri, Arial, sans-serif;
-    display: block;
-    overflow:auto;
     text-align:center;
-    float:left;
-    margin-top:50px;
+    color:#ffffff;
+    text-shadow: 0px 0px 5px #000;
+    font-size: 1.5em;
 }
 
-.footer > h1 {
-    font-size: 4.125em;
+.upper > h1 {    
 	line-height: 1.3;
 	margin: 0;
 	float: left;
-	font-weight: 800;
-    text-shadow: 0px 0px 5px #000;
-    color:#ffffff;
     }
+
+.box {
+    margin:auto;
+    background-color: #000;
+    opacity: 0.7;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    box-sizing: border-box;
+    width: 15%;
+    border: 8px solid white;
+    bottom: 35%;
+
+   }
+
+.box > a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size: 2em;
+
+}
+
+#footer { 
+    background-color:transparent;
+    position: fixed;
+    width: 100%;
+    bottom: 35%;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    text-align:center;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px #000;
+    font-size: 1.5em;
+}
+
+.footer > h1 {
+    line-height: 1.3;
+	margin: 0;
+	float: left;    
+}
